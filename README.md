@@ -102,3 +102,59 @@ add 20 units + 442 functions- WMI Script Type Library - webbox
 
 SHA1: of 4.2.4.80 15565A557B0F9576AA5F23F2A1D06BE9699A757B
 CRC32: FA1F1F25 26.4 MB (27,720,144 bytes)
+
+news of 47620   zapatsza
+---------------------------------------
+crt-alt t for help task liste
+4 gewinnt update
+ocean 220 in title
+psi extensions with type names and so on
+tee chart fixes canvas etc.
+examples all files now by 402 add 3 to 405 (also trend.pas)
+internalexception function
+check getwebscript call 
+checkversion alias to versioncheck
+timesync   letsynctime function    //see up 
+make xraise as keyword black font
+https://github.com/P33a/SimTwo/blob/master/Editor.pas
+in menu debug ? or as a function
+functioncount: strings
+list_functions - writeln(list_modules(exepath+'maxbox4.exe'));
+procedure TFEditor.BuildRegFuncList(Sender: TPSScript);
+var i, j, typ: integer;
+    SaveFunclist: TStringList;
+    S: string;
+   -- add  funclist   procedure TFEditor.BuildRegFuncList(Sender: TPSScript);
+   BuildRegFuncList(Sender);
+  SynCompletionProposal.ItemList.AddStrings(FuncList);
+  //SynCompletionProposal.InsertList.AddStrings(InsertList);
+  SynCompletionProposal.ItemList.EndUpdate;
+  //SynCompletionProposal.InsertList.EndUpdate;
+  //sender.Comp.OnBeforeCleanup := @FillTypes;
+  BuildRegTypeList(Sender);
+  
+  function FloatAsInteger(X: single): integer;
+begin
+  result := PInteger(@X)^;
+end;
+
+function IntegerAsFloat(X: integer): single;
+begin
+  result := PSingle(@X)^;
+end;
+  
+TProcess.Create(nil); -->  Unknown identifier 'EXECUTABLE' 
+Process.Executable := 'Calc.exe';
+    Process.Execute;
+
+https://github.com/P33a/SimTwo/blob/master/AStar.pas 
+\maxbox3\1025_Deranged_anagrams2_mx47620.txt(160:14): Unknown identifier 'AXISLIST'
+
+procedure LoadGridFromfile(SG: TStringGrid; fname: string);
+procedure SaveGridTofile(SG: TStringGrid; fname: string);
+procedure WriteVectorToGrid(SG: TStringGrid; vname: string; wval: TAffineVector);
+procedure WriteStringToGrid(SG: TStringGrid; vname: string; icol: longword; wval: string);
+procedure WriteFloatToGrid(SG: TStringGrid; vname: string; icol: longword; wval: double);
+
+https://github.com/P33a/SimTwo/blob/master/Utils.pas
+
